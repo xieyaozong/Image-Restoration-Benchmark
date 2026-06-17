@@ -1,0 +1,9 @@
+case,method,mae,mse,psnr,ssim_global,output
+salt_pepper,noisy_input,9.800182342529297,1543.82177734375,16.24483198018243,0.7999517877783877,assets\example_outputs\images\01_salt_pepper.png
+salt_pepper,median_3x3,3.051328182220459,50.96760559082031,31.057861295377865,0.9923035890949371,assets\example_outputs\images\02_salt_pepper_median_3x3.png
+salt_pepper,median_5x5,4.63525390625,100.86970520019531,28.093196092982694,0.9846889296362157,assets\example_outputs\images\03_salt_pepper_median_5x5.png
+gaussian,noisy_input,19.07585334777832,573.5857543945312,20.544820042344455,0.9191182635056072,assets\example_outputs\images\04_gaussian_noise.png
+gaussian,gaussian_blur_5x5,7.634088516235352,111.96626281738281,27.63993178192754,0.9825304347686321,assets\example_outputs\images\05_gaussian_blur_5x5.png
+gaussian,bilateral_filter,7.529973983764648,104.66361999511719,27.932846092841018,0.9838476102778287,assets\example_outputs\images\06_bilateral_filter.png
+contrast,piecewise_mapping,20.569381713867188,583.8314819335938,20.46792851131633,0.9373288765427875,assets\example_outputs\images\07_piecewise_mapping.png
+contrast,clahe,19.074914932250977,631.217529296875,20.12901309875678,0.9153065884698395,assets\example_outputs\images\08_clahe.png

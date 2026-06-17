@@ -1,0 +1,74 @@
+[
+  {
+    "case": "salt_pepper",
+    "method": "noisy_input",
+    "mae": 9.800182342529297,
+    "mse": 1543.82177734375,
+    "psnr": 16.24483198018243,
+    "ssim_global": 0.7999517877783877,
+    "output": "assets\\example_outputs\\images\\01_salt_pepper.png"
+  },
+  {
+    "case": "salt_pepper",
+    "method": "median_3x3",
+    "mae": 3.051328182220459,
+    "mse": 50.96760559082031,
+    "psnr": 31.057861295377865,
+    "ssim_global": 0.9923035890949371,
+    "output": "assets\\example_outputs\\images\\02_salt_pepper_median_3x3.png"
+  },
+  {
+    "case": "salt_pepper",
+    "method": "median_5x5",
+    "mae": 4.63525390625,
+    "mse": 100.86970520019531,
+    "psnr": 28.093196092982694,
+    "ssim_global": 0.9846889296362157,
+    "output": "assets\\example_outputs\\images\\03_salt_pepper_median_5x5.png"
+  },
+  {
+    "case": "gaussian",
+    "method": "noisy_input",
+    "mae": 19.07585334777832,
+    "mse": 573.5857543945312,
+    "psnr": 20.544820042344455,
+    "ssim_global": 0.9191182635056072,
+    "output": "assets\\example_outputs\\images\\04_gaussian_noise.png"
+  },
+  {
+    "case": "gaussian",
+    "method": "gaussian_blur_5x5",
+    "mae": 7.634088516235352,
+    "mse": 111.96626281738281,
+    "psnr": 27.63993178192754,
+    "ssim_global": 0.9825304347686321,
+    "output": "assets\\example_outputs\\images\\05_gaussian_blur_5x5.png"
+  },
+  {
+    "case": "gaussian",
+    "method": "bilateral_filter",
+    "mae": 7.529973983764648,
+    "mse": 104.66361999511719,
+    "psnr": 27.932846092841018,
+    "ssim_global": 0.9838476102778287,
+    "output": "assets\\example_outputs\\images\\06_bilateral_filter.png"
+  },
+  {
+    "case": "contrast",
+    "method": "piecewise_mapping",
+    "mae": 20.569381713867188,
+    "mse": 583.8314819335938,
+    "psnr": 20.46792851131633,
+    "ssim_global": 0.9373288765427875,
+    "output": "assets\\example_outputs\\images\\07_piecewise_mapping.png"
+  },
+  {
+    "case": "contrast",
+    "method": "clahe",
+    "mae": 19.074914932250977,
+    "mse": 631.217529296875,
+    "psnr": 20.12901309875678,
+    "ssim_global": 0.9153065884698395,
+    "output": "assets\\example_outputs\\images\\08_clahe.png"
+  }
+]

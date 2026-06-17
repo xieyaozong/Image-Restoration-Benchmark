@@ -59,4 +59,4 @@ python scripts/run_demo.py --input cat\cat.jpg --amount 0.15 --kernel-size 5
 
 - Current benchmark code compares restoration methods at the project root.
 - Keep this folder as historical context unless a notebook-specific experiment needs to be reproduced.
-- New outputs should be generated through `../../scripts/run_benchmark.py`.
+- Create new outputs through `../../scripts/run_benchmark.py`.

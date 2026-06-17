@@ -66,4 +66,4 @@ python scripts/run_demo.py --input path\to\image.jpg --r1 60 --s1 20 --r2 190 --
 
 - Current contrast code lives at the project root under `image_restoration_benchmark/contrast.py`.
 - Keep this folder as historical context unless a notebook-specific experiment needs to be reproduced.
-- New outputs should be generated through `../../scripts/run_benchmark.py`.
+- Create new outputs through `../../scripts/run_benchmark.py`.

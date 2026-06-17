@@ -58,4 +58,4 @@ python scripts/run_demo.py --input file\1.jpg --sigma 25 --kernel-size 5
 
 - Current metric code lives at the project root under `image_restoration_benchmark/metrics.py`.
 - The benchmark now reports MAE, MSE, PSNR, and global SSIM together.
-- New outputs should be generated through `../../scripts/run_benchmark.py`.
+- Create new outputs through `../../scripts/run_benchmark.py`.
